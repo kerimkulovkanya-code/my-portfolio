@@ -1,11 +1,9 @@
 import React from 'react';
 
-function App() {
+export default function App() {
   return (
     <div>
-      <h1>Hello, Netlify!</h1>
+      <h1>Hello Portfolio!</h1>
     </div>
   );
 }
-
-export default App;
