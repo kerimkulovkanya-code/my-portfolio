@@ -1,15 +1,24 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css"; // We'll style it next
+import logo from "../assets/logo.png"; // Your custom logo
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
-      <h2>My Portfolio</h2>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <div className="logo">
+        <img src={logo} alt="My Logo" />
+        <span>K.K.</span> {/* Your initials */}
+      </div>
+      <ul className="nav-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Me</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
