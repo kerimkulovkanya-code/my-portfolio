@@ -5,7 +5,49 @@ body {
   color: #333;
 }
 
-.app {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #242424;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
   text-align: center;
+  padding: 3rem 1rem;
+}
+
+.projects {
   padding: 2rem;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
 }
