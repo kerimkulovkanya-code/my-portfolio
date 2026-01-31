@@ -1,9 +1,12 @@
 import React from 'react';
 
-export default function App() {
+function App() {
   return (
-    <div>
+    <div className="app">
       <h1>Hello Portfolio!</h1>
+      <p>Welcome to my React + Vite portfolio!</p>
     </div>
   );
 }
+
+export default App;
