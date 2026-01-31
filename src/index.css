@@ -1,53 +1,45 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background-color: #242424;
-  color: white;
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
 }
 
-.navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-}
-
-.navbar a {
-  color: white;
+a {
+  color: #38bdf8;
   text-decoration: none;
 }
 
-.hero {
-  text-align: center;
-  padding: 3rem 1rem;
-}
-
-.projects {
+.container {
+  max-width: 1100px;
+  margin: auto;
   padding: 2rem;
-  text-align: center;
 }
 
-.project-list {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+.section {
+  margin: 5rem 0;
 }
 
-.project-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  width: 200px;
+h1, h2, h3 {
+  color: #f8fafc;
 }
 
-.project-card img {
-  width: 100%;
-  height: auto;
+button {
+  background: #38bdf8;
+  color: #020617;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
 }
